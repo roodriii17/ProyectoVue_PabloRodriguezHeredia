@@ -133,7 +133,7 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
-  overflow-y: hidden; /* Evitar el desplazamiento vertical */
+  overflow-y: hidden; 
 }
 
 #app {
@@ -144,7 +144,7 @@ html, body {
   min-height: 100vh;
   padding: 20px;
   box-sizing: border-box;
-  margin-top: 220px; /* Añade espacio para la cabecera, el input y el resumen */
+  margin-top: 220px; 
   overflow-y: auto; /* Permitir el desplazamiento vertical solo dentro del contenedor */
 }
 
@@ -166,12 +166,12 @@ html, body {
 }
 
 .lista-recordatorios-container {
-  background-color: #1e1e1e; /* Fondo oscuro */
-  color: white; /* Texto blanco */
-  min-height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
-  padding: 20px; /* Espaciado interno */
-  box-sizing: border-box; /* Incluye el padding en el tamaño total */
-  margin: 0; /* Elimina márgenes */
+  background-color: #1e1e1e; 
+  color: white; 
+  min-height: 100vh;
+  padding: 20px; 
+  box-sizing: border-box; 
+  margin: 0; 
 }
 
 .lista-tareas {
@@ -180,7 +180,7 @@ html, body {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  padding-top: 320px; /* Añade espacio para la cabecera y el resumen */
+  padding-top: 320px; 
 }
 
 .tarea {

@@ -84,17 +84,17 @@ const login = async () => {
     </div>
     <div v-else>
       <div v-if="!isRegistering">
-        <!-- Botón para iniciar sesión con Google -->
+        <
         <button @click="iniciarSesionConGoogle" class="auth-btn">
           <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="Google" class="auth-icon" />
         </button>
 
-        <!-- Botón para iniciar sesión con GitHub -->
+        
         <button @click="iniciarSesionConGithub" class="auth-btn">
           <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="auth-icon" />
         </button>
 
-        <!-- Iniciar sesión con correo -->
+     
         <div>
           <input v-model="email" type="email" placeholder="Correo electrónico" />
           <input v-model="password" type="password" placeholder="Contraseña" />
@@ -103,11 +103,10 @@ const login = async () => {
           </button>
         </div>
 
-        <!-- Registrarse -->
+        
         <button @click="isRegistering = true">Registrarse</button>
       </div>
       <div v-else>
-        <!-- Registro con correo -->
         <div>
           <input v-model="email" type="email" placeholder="Correo electrónico" />
           <input v-model="password" type="password" placeholder="Contraseña" />

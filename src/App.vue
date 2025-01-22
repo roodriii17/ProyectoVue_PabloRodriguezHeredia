@@ -39,12 +39,12 @@ router.beforeEach(async (to, from) => {
 <style scoped>
 nav {
   display: flex;
-  justify-content: center; /* Centra los elementos horizontalmente */
-  align-items: center; /* Centra los elementos verticalmente */
+  justify-content: center; 
+  align-items: center; 
   padding: 15px 20px;
   background-color: #333;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 100%; /* Asegura que el nav ocupe todo el ancho */
+  width: 100%; 
   position: fixed; /* Fija la barra de navegación */
   top: 0;
   left: 0;
@@ -61,24 +61,24 @@ nav a {
 }
 
 nav a:hover {
-  color: #00bcd4; /* Color de hover */
+  color: #00bcd4; 
 }
 
-/* Espaciado para evitar que el contenido quede oculto debajo de la barra */
+
 body {
-  margin-top: 80px; /* Añade espacio para la barra fija */
+  margin-top: 80px; 
 }
 .container {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Alinea el contenido al inicio (izquierda) */
-  align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
-  text-align: left; /* Alinea el texto a la izquierda */
-  width: 90%; /* Ocupa todo el ancho */
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  text-align: left; 
+  width: 90%; 
   padding: 20px;
   box-sizing: border-box;
-  margin-top: 80px; /* Añade espacio para la barra de navegación fija */
+  margin-top: 80px; 
 }
 
 .container h1 {
@@ -164,7 +164,7 @@ h3 {
 
 h3.completada {
   text-decoration: line-through;
-  color: #4caf50; /* Verde para tareas completadas */
+  color: #4caf50; 
 }
 
 .acciones {
@@ -232,14 +232,14 @@ button.completada {
 
 /* Colores de fondo según la prioridad */
 .tarea.high {
-  background-color: #e74c3c; /* Rojo para alta prioridad */
+  background-color: #e74c3c; 
 }
 
 .tarea.normal {
-  background-color: #f39c12; /* Naranja para prioridad normal */
+  background-color: #f39c12; 
 }
 
 .tarea.low {
-  background-color: #2ecc71; /* Verde para prioridad baja */
+  background-color: #2ecc71; 
 }
 </style>
